@@ -1,0 +1,36 @@
+/* TODAY → light blue */
+.fc-day-today {
+  background-color: #e6f2ff !important;
+}
+
+/* Underline today only */
+.fc-day-today .fc-daygrid-day-number {
+  text-decoration: underline;
+  font-weight: 700;
+}
+
+/* CLICKED DATE → light pink (visible) */
+.fc .fc-daygrid-day.fc-day-selected-custom {
+  background-color: #f8b4c4 !important;
+}
+.fc-day-selected-custom .fc-daygrid-day-frame {
+  background-color: #f8b4c4 !important;
+}
+.fc-day-selected-custom .fc-daygrid-day-number {
+  font-weight: 700;
+}
+
+/* Clean look */
+.fc a {
+  text-decoration: none !important;
+  color: #000 !important;
+}
+
+.fc-col-header-cell-cushion {
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.fc-daygrid-day-top {
+  justify-content: center;
+}

@@ -1,0 +1,16 @@
+# node
+node_modules/
+dist/
+build/
+
+# python
+__pycache__/
+*.pyc
+venv/
+
+# models (optional if large)
+*.pkl
+
+# system
+.env
+.DS_Store
